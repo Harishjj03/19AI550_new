@@ -16,25 +16,26 @@
 10. Stop the program.
 ### Program 
 ```
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-public class FirstScript : MonoBehaviour
+
+public class NewMonoBehaviourScript : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        print("Welcome to Unity");
+        print("Welcome");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        print("Welcome to unity");
     }
 }
+
 ```
 ### Output:
+<img width="1917" height="1198" alt="Screenshot 2026-07-24 132217" src="https://github.com/user-attachments/assets/37e72463-f322-47f7-a798-7bf503f5c397" />
 
 
 
